@@ -1,0 +1,22 @@
+{
+    "name": "srcreative/composer-test",
+    "description": "A simple test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve Porter",
+            "email": "steve@srcreative.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "psr-4": {"SRCreative\\ComposerTest\\": "src/"}
+        }
+    },
+    "require": {
+        "php": ">=5.3.0"
+    }
+
+}
